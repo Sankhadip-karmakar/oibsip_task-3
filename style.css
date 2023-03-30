@@ -1,0 +1,83 @@
+.x {
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    margin-bottom: 0;
+    color: rgb(184, 54, 147);
+    letter-spacing: 2px;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    background-image: linear-gradient(90deg,#ffffff,#19A7CE);
+}
+.container{
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+    left: 30%;
+}
+.addtask{
+    width: 80%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.addtask > input[type="text"] {
+    width: 50%;
+    border: none;
+    border-bottom: 2px dotted saddlebrown;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    color: #482714;
+}
+ .addtask button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+ }
+
+h1{
+    font-size: 28px ;
+    text-align: center;
+    color: white;
+}
+
+ol{
+    list-style-type: none;
+}
+
+ol li{
+    align-items: center;
+    padding: 10px;
+    margin: 5px 30px; 
+    background: #FFBF9B;
+    font-size: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+ol.compeleted li{
+    background-color: aquamarine;
+}
+
+li button{
+    float: right;
+    padding: 5px;
+    font-size: 25px;
+    line-height: 20px;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
